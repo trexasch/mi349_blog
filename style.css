@@ -1,7 +1,31 @@
 body{
-    background-color:rgb(7, 10, 48)
+    background-color:rgb(7, 10, 48);
+    margin:15px;
 }
 #h1{
     color: rgb(230, 230, 230);
     text-align: center;
+}
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #adadad;
+    overflow: hidden;
+}
+.navigation a{
+    color:rgb(7,10,48);
+    text-decoration: none;
+    padding: 15px;
+    display:block;
+    text-align:center;
+}
+.navigation a:hover{
+    background-color:hsl(0, 0%, 83%);
+}
+.navigation li{
+    float:left;
+}
+p{
+    color: rgb(230, 230, 230);
 }
