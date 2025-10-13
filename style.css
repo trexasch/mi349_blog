@@ -2,10 +2,12 @@ body{
     background-color:rgb(7, 10, 48);
     margin:15px;
 }
+
 #h1{
     color: rgb(230, 230, 230);
     text-align: center;
 }
+
 .navigation ul {
     list-style-type: none;
     margin: 0;
@@ -13,6 +15,7 @@ body{
     background-color: #adadad;
     overflow: hidden;
 }
+
 .navigation a{
     color:rgb(7,10,48);
     text-decoration: none;
@@ -20,12 +23,15 @@ body{
     display:block;
     text-align:center;
 }
+
 .navigation a:hover{
     background-color:hsl(0, 0%, 83%);
 }
+
 .navigation li{
     float:left;
 }
+
 p{
     color: rgb(230, 230, 230);
 }
@@ -47,4 +53,52 @@ p{
     border-radius:5px;
 }
 
+a[href="index.html"]{
+    font-weight: bold;
+}
 
+a[href="about.html"]{
+    font-weight: bold;
+}
+
+a[href="contact.html"]{
+    font-weight: bold;
+}
+
+figcaption{
+    color:#adadad;
+    text-align:center;
+}
+
+h2{
+    font-size:24px;
+    color:seashell;
+}
+
+h3{
+    font-weight:bold;
+    color:seashell
+}
+h4{
+    font-style:italic;
+    color:seashell;
+}
+h5{
+    text-decoration:underline;
+    color:seashell;
+}
+
+.nav-title{
+    color:lightgray;
+    margin-bottom:5px;
+}
+
+ul{
+    background-color: seashell;
+    border-radius:5px;
+}
+
+#fav-list{
+    max-width:400px;
+    margin:10px;
+}
