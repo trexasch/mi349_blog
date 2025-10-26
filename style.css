@@ -113,3 +113,9 @@ table{
     background-color:seashell;
     border-radius:5px;
 }
+
+@media screen and (max-width:616px){
+    .navigation li{
+        float:none;
+    }
+}
