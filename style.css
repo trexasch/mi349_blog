@@ -34,6 +34,8 @@ body{
 
 p{
     color: rgb(230, 230, 230);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 #img1{
@@ -109,13 +111,109 @@ ul{
 }
 
 table{
-    border: 1px solid black;
     background-color:seashell;
-    border-radius:5px;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
 }
 
-@media screen and (max-width:616px){
-    .navigation li{
-        float:none;
+@media screen and (max-width: 768px){
+    body{
+        margin: 10px;
     }
+
+
+#h1 {
+    font-size: 32px;
+}
+
+.navigation li {
+    float: none;
+    display: inline-block;
+}
+
+.navigation a {
+    padding: 10px;
+}
+
+#img1, #img2 {
+    float: none;
+    display: block;
+    margin: 10px auto;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+table {
+    width: 100%;
+  }
+
+  h2, h3, h4, h5 {
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  body {
+    margin: 5px;
+    font-size: 16px;
+  }
+
+  #h1 {
+    font-size: 26px;
+    padding: 10px;
+  }
+
+  .navigation ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .navigation li {
+    float: none;
+    width: 100%;
+  }
+
+  .navigation a {
+    display: block;
+    padding: 12px;
+    border-bottom: 1px solid #777;
+  }
+
+  #img1 img,
+  #img2 img {
+    width: 100%; /* make images fluid */
+    height: auto;
+  }
+
+  figure {
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  table {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  input[type="text"],
+  button {
+    width: 90%;
+    display: block;
+    margin: 10px auto;
+  }
+
+  .contact-form {
+    max-width: 100%;
+    margin: 10px;
+  }
 }
